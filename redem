@@ -1,0 +1,23 @@
+/*
+
+/rotas estaticas, rotas dinamicas
+
+g1.globo.com/contato
+
+//rota dinamica
+g1.globo.com/ano2023-sim
+g1.globo.com/festas-shows-sim
+
+//Pasta pública e arquivos estáticos
+
+MVC
+M = model = modelo
+V = View = visualização
+C = controller = controler
+-separar cada arquivo no seu lugar
+- juntar tudo para rodar o sistema
+
+M = Product.ts
+V = home.mustache
+C = homeController
+*/

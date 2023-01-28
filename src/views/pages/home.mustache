@@ -1,0 +1,37 @@
+{{>partials/header }}
+
+opa, tudo bem? {{ user.name }}, voce já tem {{ user.age}} anos?
+
+{{#show}}
+ como vai a vida?
+{{/show}}
+
+<hr />
+
+<h2>Produtosa</h2>
+
+<ul>
+{{#products}}
+  {{>partials/productItem }}
+{{/products}}
+</ul>
+
+<hr />
+
+<h2>Produtos a partir de R$12,00</h2>
+
+<ul>
+{{#expensives}}
+  {{>partials/productItem }}
+{{/expensives}}
+</ul>
+
+<hr />
+
+<ul>
+ {{#lista}}
+ <li>{{.}}</li>
+ {{/lista}}
+</ul>
+
+{{>partials/footer}}
